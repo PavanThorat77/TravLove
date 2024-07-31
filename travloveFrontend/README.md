@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TravLove🌍❤️
 
-## Available Scripts
+## Resources
 
-In the project directory, you can run:
+- [React Docs](https://beta.reactjs.org/)
+- [BootStrap](https://getbootstrap.com/docs/)
+- [ReactStrap](https://github.com/reactstrap/reactstrap)
+- [Stackoverflow](https://stackoverflow.com/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot (10)](https://github.com/user-attachments/assets/b2206a00-cc1d-48ed-9946-4805a7f0998f)
+![Screenshot (11)](https://github.com/user-attachments/assets/d8e7a048-f725-4a48-9e52-d700d0fcfda1)
 
-### `npm test`
+![Screenshot (12)](https://github.com/user-attachments/assets/5eea255d-8120-4746-bc9b-82ee60353fb1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[TravelWorld 🌍](https://travlove.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Setup this project run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone <https://github.com/PavanThorat77/travloveFrontend>
+cd travlove
+npm init
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Environment Variables
 
-## Learn More
+`REACT_APP_BASE_URL`= <http://localhost:4000/api/v1>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Tours Listing:** Display a list of available tours for users to explore.
+- **Featured Tours:** Highlight and showcase special or popular tours on the homepage.
+- **Tour Details:** Provide comprehensive information about each tour, including description, itinerary, price, and more.
+- **Gallery:** Showcase high-quality images and videos of destinations and tour experiences.
+- **User Authentication:** Allow users to create accounts and log in to access personalized features.
+- **Booking System:** Enable users to book tours online with a secure and easy-to-use booking system.
+- **Search Tours:** Implement a search functionality to help users find specific tours based on their preferences.
+- **Reviews and Ratings:** Allow users to leave reviews and ratings for tours they have experienced.
+- **Responsive Design:** Ensure the website is optimized for various devices, including desktops, tablets, and smartphones.
+- **User Reviews and Testimonials:** Showcase positive reviews and testimonials from previous customers to build trust.
+- **Contact Form:** Provide a contact form for users to get in touch with inquiries or feedback.
+- **Blogs:** Added Blogs feature to provide more information to customers.
+s.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+**Client:** React, Bootstrap, Reactstrap, Remix Icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Server:** Node.js, Express
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Database:** MongoDB
