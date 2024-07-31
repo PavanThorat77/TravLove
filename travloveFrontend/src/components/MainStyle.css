@@ -1,0 +1,133 @@
+.main-bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.main-text h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    background: #fff;
+    color: navy;
+    -webkit-background-clip: text;
+    -webkit-animation-fill-color: transparent;
+}
+
+.main-text p {
+    font-size: 1.3rem;
+    color: navy;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.showClass {
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: navy;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-text {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-text {
+        width: 90%;
+    }
+
+    .main-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-text p {
+        font-size: 1.2rem;
+    }
+
+    .showClass {
+        font-size: 1rem;
+        padding: 0.8rem 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-text {
+        width: 95%;
+    }
+
+    .main-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .main-text p {
+        font-size: 1.1rem;
+    }
+
+    .showClass {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-text {
+        width: 98%;
+    }
+
+    .main-text h1 {
+        font-size: 1.4rem;
+        padding: 10px 20px;
+    }
+
+    .main-text p {
+        font-size: 1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .showClass {
+        padding: 0.6rem 1.1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-text {
+        width: 100%;
+    }
+
+    .main-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .main-text p {
+        font-size: 0.9rem;
+    }
+
+    .showClass {
+        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+    }
+}
